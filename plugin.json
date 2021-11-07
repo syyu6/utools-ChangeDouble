@@ -1,0 +1,11 @@
+{
+    "preload": "preload.js",
+    "logo": "logo/logo.png",
+    "features": [{
+        "code": "ChangeDouble",
+        "explain": "Windows下双拼与全拼模式切换",
+        "icon": "logo/logo.png",
+        "platform": ["win32"],
+        "cmds": ["双拼全拼模式切换", "ChangeDouble"]
+    }]
+}
