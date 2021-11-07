@@ -1,11 +1,20 @@
 {
     "preload": "preload.js",
     "logo": "logo/logo.png",
+    "platform": ["win32"],
     "features": [{
-        "code": "ChangeDouble",
-        "explain": "Windows下双拼与全拼模式切换",
-        "icon": "logo/logo.png",
-        "platform": ["win32"],
-        "cmds": ["双拼全拼模式切换", "ChangeDouble"]
-    }]
+            "code": "ChangeDouble",
+            "explain": "双拼模式",
+            "icon": "logo/logo.png",
+            "platform": ["win32"],
+            "cmds": ["ChangeDouble"]
+        },
+        {
+            "code": "ChangeAll",
+            "explain": "全拼模式",
+            "icon": "logo/logo.png",
+            "platform": ["win32"],
+            "cmds": ["ChangeAll"]
+        }
+    ]
 }
